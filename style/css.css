@@ -1,0 +1,362 @@
+/* the native body tags for the website page */
+.h1, h1 {
+  font-size: 2.0rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 3rem;
+  font-weight: bold;
+}
+
+body, .footer {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+}
+
+hr {
+  border: none;
+  height: 20px;
+  height: 50px;
+  margin-top: 0;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -96px auto 31px;
+}
+
+/* The heading for the styling for various h1 headings in different sections */
+/* the heading for about image */
+.about-me-heading, .booking-section-h1-header, .packages-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* NAVIGATION BAR SECTION */
+/* The navigation tags relating to the website navbar */
+/* The brand styling for the navbar */
+.fitness-navbar {
+  height: 5rem;
+}
+
+.navbar-light .navbar-brand {
+  border: 3px solid green;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  margin-right: 7%;
+  padding: 10px;
+}
+
+/* The navigation styling for the dropdown menu */
+.nav-link, .dropdown-menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+}
+
+/* The bold styling responsible for the bolding of the text */
+.navbar-light .navbar-nav .nav-0k {
+  color: white;
+  font-weight: bolder;
+}
+
+/* The is responsible for the styling of the links located in the navbar */
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  padding-right: 1rem;
+}
+
+/* HEADER SECTION */
+/* The header section for the main website */
+#header {
+  height: 10%;
+  margin: 0;
+  text-align: center;
+}
+
+/* THE IMAGE section
+This is responsible for the image section of the website */
+/* this is the fitness image for the main page section */
+.fitness-image {
+  width: 100%;
+  height: 50%
+}
+
+/* Responsible for the height of image in the row image section */
+.image-row {
+  height: 39rem;
+}
+
+.image-seperator {
+  border: none;
+  height: 20px;
+  height: 50px;
+  margin-top: 0;
+  box-shadow: 0 29px 10px -22px #333;
+  margin: -170px auto 74px;
+}
+
+/* THE BOOKING SECTION STYLING SECTION */
+/*
+This is the entire section for the book section */
+/* The icon images in the booking section */
+.booking-icons {
+  font-size: 6rem;
+  margin-left: 7rem;
+}
+
+/* The section responsible for styling of call or book block */
+.booking-info {
+  text-align: center;
+}
+
+/* The styling for the about section in the booking section */
+.book-trainer {
+  color: red;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+/* The styling section for a calling or booking a trainer */
+.booking-or-call-trainer {
+  color: blue;
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* The individual rows in the booking section */
+.booking-rows-section {
+  margin: auto;
+  padding-bottom: 3rem;
+  width: 67%;
+}
+
+.booking-section-about-me, .booking-section-book-now {
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: gray;
+}
+
+.booking-section-book-now {
+  margin-top: -2px;
+padding: 1rem;
+}
+
+.book-trainer {
+  margin-top: 2.9rem;
+}
+
+/* THE MOTIVATION SECTION */
+#motivation {
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.motivation-h1-header {
+  color: #512828;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin: auto;
+  text-align: center;
+  padding: 4rem 4rem 4rem 2rem;
+}
+
+/* THE JOIN SECTION FOR THE WEBSITE */
+#join-section {
+  margin: 7rem auto;
+  width: 60%;
+}
+
+/* The login button */
+.site-login {
+  margin-top: 3.25rem;
+}
+
+/* The registration button */
+.site-register {
+  margin-top: 0.8rem;
+}
+
+.join-section-h1-heading {
+  font-size: 4rem;
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.login-heading, .register-heading {
+  font-size: 2.1rem;
+}
+
+/* The login and registration icons from font awesome */
+.login-icon, .sign-icon {
+  margin: 0;
+  font-size: 3rem;
+  padding: 0.8rem;
+}
+
+.login-icon {
+  color: green;
+}
+
+.sign-icon {
+  color: blue;
+}
+
+.join-section-register-heading, .join-section-login-heading {
+  padding: 1rem;
+}
+
+/* THE ABOUT ME SECTION */
+/* the about me section */
+#about-me {
+  text-align: center;
+}
+
+.about-me {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+/* the image for the about me section */
+.about-me-img {
+  border-radius: 100%;
+  margin: 10%;
+}
+
+/* The packages section */
+#packages {
+  background-color: #f7f7f7;
+  margin-top: 3rem;
+}
+
+.packages-body {
+  padding-bottom: 6rem;
+}
+
+.individual-packages {
+  margin: 8%;
+  margin-bottom: 0;
+}
+
+/* The styling for the cards */
+.card {
+  margin-bottom: 2rem;
+}
+
+.card-header {
+  height: 7.5rem;
+  padding-top: 2rem;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.packages-header {
+  padding: 3rem;
+}
+
+.packages-paragraph {
+  width: 64%;
+  margin: auto;
+  margin-bottom: 3rem
+}
+
+/* THE TESTIMONALS SECTIONS */
+#testimonals {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonal-h2-heading {
+  font-size: 1.55rem;
+}
+
+.testimonals-h1-heading {
+  font-size: 3.9rem;
+  padding: 5rem;
+}
+
+.testimonal-img {
+  border-radius: 100%;
+  height: 15rem;
+}
+
+.testimonal-paragraph {
+  width: 59%;
+  margin: auto;
+  padding: 5rem;
+}
+
+/* THE CONTACT FORM */
+#contact-me {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-me-section {
+  padding: 3rem;
+  s
+}
+
+/* THE FOOTER BAR */
+#footer {
+  background-color: #343a40;
+  margin-top: 5rem;
+}
+
+.footer-body {
+  color: white;
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+  width: 59%;
+}
+
+/* The icon for the footers */
+.icon {
+  padding: 1rem;
+}
+
+.twitter-icon {
+  color: blue;
+}
+
+.youtube-icon {
+  color: red;
+}
+
+.whatsapp-icon {
+  color: green;
+}
+
+.Copyright {
+  margin: 2rem;
+  padding-right: 2rem;
+}
+
+.footer-copyright {
+  margin-left: 18rem;
+}
